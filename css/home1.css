@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*body{
+	font-size: 115%;
+	background-image: url("../images/a3.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}*/
+header {
+  background-color: rgba(110, 1, 59, 1);
+  color: white;
+  padding: 1.3%;
+  /*background-image: url("../images/a5.jpg");
+	background-size: cover;*/
+  font-family: plaster;
+  text-shadow: 4px 7px black;
+  display: inline-block;
+  float: left;
+  width: 100vw;
+  /*border-bottom: 4px solid green;*/
+}
+header img {
+  display: inline-block;
+  float: left;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+h1 {
+  float: left;
+  text-align: left;
+  font-size: 300%;
+}
+
+.menu-bar {
+  background-color: rgba(0, 0, 0, 1);
+  text-align: center;
+  clear: both;
+  width: 100vw;
+  z-index: 1;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  z-index: 1;
+}
+.menu-bar ul li {
+  width: 175px;
+  margin: 10px;
+  padding: 10px;
+  z-index: 1;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #fff;
+  z-index: 1;
+  font-size: 120%;
+}
+.active,
+.menu-bar ul li:hover {
+  background: #2bab0d;
+  border-radius: 3px;
+}
+.menu-bar .fa {
+  margin-right: 8px;
+}
+.sub-menu-1 {
+  display: none;
+  z-index: 1;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 2px;
+  margin-left: 2px;
+  z-index: 1;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+  z-index: 1;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+  z-index: 1;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #b2ff00;
+}
+div.l {
+  background-color: rgb(64, 222, 167);
+  display: inline-block;
+  float: left;
+  height: 90vh;
+  width: 50%;
+  border: 1px solid black;
+  padding-left: 2%;
+}
+div.r {
+  background-color: black;
+  display: inline-block;
+  height: 90vh;
+  width: 50%;
+  float: right;
+  background-image: url("../images/a4.jpg");
+  background-size: cover;
+}
+.a1 {
+  margin: 5%;
+  color: black;
+  font-family: calibri;
+  font-size: 145%;
+  line-height: 210%;
+}
+.a1 span {
+  font-family: "comic sans ms";
+  color: rgb(135, 26, 77);
+
+  font-variant: small-caps;
+}
+.a2 {
+  margin-left: 35%;
+  margin-top: 10%;
+  color: black;
+  font-family: "Candara Light";
+  font-size: 125%;
+}
+.a3 {
+  margin: 10%;
+  margin-left: 35%;
+}
+button {
+  font-size: 115%;
+  padding: 1.5% 4%;
+  margin-right: 8%;
+  width: 40%;
+  background-color: rgba(110, 1, 59, 1);
+  border: 2px solid black;
+  border-radius: 9px;
+}
+footer {
+  text-align: center;
+  padding: 1%;
+  line-height: 250%;
+  background-color: rgba(110, 1, 59, 1);
+  color: white;
+  font-size: 125%;
+  font-family: "Candara Light";
+}
+footer .fa {
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 1%;
+  color: white;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  display: inline-block;
+  border-right: 1px solid white;
+  width: 49%;
+}
+main a {
+  margin: auto 4%;
+}
+main.x {
+  padding-left: 12%;
+}
+main.y {
+  border-right: none;
+  padding-right: 12%;
+}
+form {
+  text-align: right;
+}
+form input {
+  margin-right: 19%;
+}
+
+form textarea {
+  margin-right: 19%;
+  text-align: left;
+}
+#sub {
+  font-size: 90%;
+  padding: 1.5% 4%;
+  margin-top: 5%;
+  margin-right: 19%;
+  width: 30%;
+  background-color: rgba(110, 1, 59, 1);
+  border: 2px solid black;
+  border-radius: 9px;
+  color: white;
+}
